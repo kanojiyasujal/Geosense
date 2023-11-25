@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "409813632754",
+    "project_id": "geosense-e1038",
+    "storage_bucket": "geosense-e1038.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409813632754:android:9701d62d3cb08d5061326b",
+        "android_client_info": {
+          "package_name": "com.example.geosense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409813632754-svqpj0h54cacgdermc1vdrhkovnlrr6k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.geosense",
+            "certificate_hash": "471ce8f881f07e6b2bd9a0599202bf3d2ba0df44"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMojeny1d1gWlPqt3AkrjcRKLV8QWmfrQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409813632754-eb18le7ddl1a9822a736h09756isod90.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.riveAnimation"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409813632754:android:2e3817265dd7894161326b",
+        "android_client_info": {
+          "package_name": "com.example.rive_animation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409813632754-dp0a8nha9en9ddnvinmtsi9m7us03g3n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rive_animation",
+            "certificate_hash": "471ce8f881f07e6b2bd9a0599202bf3d2ba0df44"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMojeny1d1gWlPqt3AkrjcRKLV8QWmfrQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409813632754-eb18le7ddl1a9822a736h09756isod90.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.riveAnimation"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

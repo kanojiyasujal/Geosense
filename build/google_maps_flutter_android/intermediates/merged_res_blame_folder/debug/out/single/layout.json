@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\geosense-main\\build\\google_maps_flutter_android\\intermediates\\merged_res\\debug\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\SUJAL\\.gradle\\caches\\transforms-3\\7d53c99ef01ecb35b72db9591c47ae69\\transformed\\core-1.6.0\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "D:\\geosense-main\\build\\google_maps_flutter_android\\intermediates\\merged_res\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\SUJAL\\.gradle\\caches\\transforms-3\\7d53c99ef01ecb35b72db9591c47ae69\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\geosense-main\\build\\google_maps_flutter_android\\intermediates\\merged_res\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\SUJAL\\.gradle\\caches\\transforms-3\\7d53c99ef01ecb35b72db9591c47ae69\\transformed\\core-1.6.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\geosense-main\\build\\google_maps_flutter_android\\intermediates\\merged_res\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\SUJAL\\.gradle\\caches\\transforms-3\\7d53c99ef01ecb35b72db9591c47ae69\\transformed\\core-1.6.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\geosense-main\\build\\google_maps_flutter_android\\intermediates\\merged_res\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\SUJAL\\.gradle\\caches\\transforms-3\\7d53c99ef01ecb35b72db9591c47ae69\\transformed\\core-1.6.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\geosense-main\\build\\google_maps_flutter_android\\intermediates\\merged_res\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\SUJAL\\.gradle\\caches\\transforms-3\\7d53c99ef01ecb35b72db9591c47ae69\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_chronometer.xml"
+    }
+]

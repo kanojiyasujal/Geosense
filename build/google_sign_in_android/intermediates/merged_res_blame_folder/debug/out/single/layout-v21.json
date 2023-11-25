@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\geosense-main\\build\\google_sign_in_android\\intermediates\\merged_res\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\SUJAL\\.gradle\\caches\\transforms-3\\7d53c99ef01ecb35b72db9591c47ae69\\transformed\\core-1.6.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\geosense-main\\build\\google_sign_in_android\\intermediates\\merged_res\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\SUJAL\\.gradle\\caches\\transforms-3\\7d53c99ef01ecb35b72db9591c47ae69\\transformed\\core-1.6.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\geosense-main\\build\\google_sign_in_android\\intermediates\\merged_res\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\SUJAL\\.gradle\\caches\\transforms-3\\7d53c99ef01ecb35b72db9591c47ae69\\transformed\\core-1.6.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\geosense-main\\build\\google_sign_in_android\\intermediates\\merged_res\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\SUJAL\\.gradle\\caches\\transforms-3\\7d53c99ef01ecb35b72db9591c47ae69\\transformed\\core-1.6.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    }
+]

@@ -1,0 +1,346 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.rive_animation"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->D:\geosense-main\android\app\src\main\AndroidManifest.xml:7:5-67
+15-->D:\geosense-main\android\app\src\main\AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->D:\geosense-main\android\app\src\main\AndroidManifest.xml:4:5-81
+16-->D:\geosense-main\android\app\src\main\AndroidManifest.xml:4:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->D:\geosense-main\android\app\src\main\AndroidManifest.xml:5:5-79
+17-->D:\geosense-main\android\app\src\main\AndroidManifest.xml:5:22-76
+18    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+18-->D:\geosense-main\android\app\src\main\AndroidManifest.xml:6:5-85
+18-->D:\geosense-main\android\app\src\main\AndroidManifest.xml:6:22-82
+19    <uses-permission android:name="android.permission.READ_CONTACTS" />
+19-->D:\geosense-main\android\app\src\main\AndroidManifest.xml:8:5-72
+19-->D:\geosense-main\android\app\src\main\AndroidManifest.xml:8:22-69
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->D:\geosense-main\android\app\src\main\AndroidManifest.xml:9:5-68
+20-->D:\geosense-main\android\app\src\main\AndroidManifest.xml:9:22-65
+21    <uses-permission android:name="android.permission.VIBRATE" />
+21-->[:flutter_local_notifications] D:\geosense-main\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-66
+21-->[:flutter_local_notifications] D:\geosense-main\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-63
+22    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+22-->[:flutter_local_notifications] D:\geosense-main\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-77
+22-->[:flutter_local_notifications] D:\geosense-main\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-74
+23
+24    <queries>
+24-->[:contacts_service] D:\geosense-main\build\contacts_service\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-22:15
+25        <intent>
+25-->[:contacts_service] D:\geosense-main\build\contacts_service\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:18
+26            <action android:name="android.accounts.AccountAuthenticator" />
+26-->[:contacts_service] D:\geosense-main\build\contacts_service\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-76
+26-->[:contacts_service] D:\geosense-main\build\contacts_service\intermediates\merged_manifest\debug\AndroidManifest.xml:11:21-73
+27        </intent>
+28        <!-- Allows the app to load an icon corresponding to the custom MIME type. -->
+29        <intent>
+29-->[:contacts_service] D:\geosense-main\build\contacts_service\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-21:18
+30            <action android:name="android.intent.action.VIEW" />
+30-->[:contacts_service] D:\geosense-main\build\contacts_service\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-65
+30-->[:contacts_service] D:\geosense-main\build\contacts_service\intermediates\merged_manifest\debug\AndroidManifest.xml:15:21-62
+31
+32            <data
+32-->[:contacts_service] D:\geosense-main\build\contacts_service\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-20:44
+33                android:host="com.android.contacts"
+33-->[:contacts_service] D:\geosense-main\build\contacts_service\intermediates\merged_manifest\debug\AndroidManifest.xml:18:17-52
+34                android:mimeType="vnd.android.cursor.item/*"
+34-->[:contacts_service] D:\geosense-main\build\contacts_service\intermediates\merged_manifest\debug\AndroidManifest.xml:19:17-61
+35                android:scheme="content" />
+35-->[:contacts_service] D:\geosense-main\build\contacts_service\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-41
+36        </intent>
+37        <!-- Needs to be explicitly declared on Android R+ -->
+38        <package android:name="com.google.android.apps.maps" />
+38-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\SUJAL\.gradle\caches\transforms-3\82b4753f0473af6c262760b1322471f7\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+38-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\SUJAL\.gradle\caches\transforms-3\82b4753f0473af6c262760b1322471f7\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+39    </queries>
+40
+41    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+41-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:26:5-79
+41-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:26:22-76
+42
+43    <uses-feature
+43-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\SUJAL\.gradle\caches\transforms-3\82b4753f0473af6c262760b1322471f7\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+44        android:glEsVersion="0x00020000"
+44-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\SUJAL\.gradle\caches\transforms-3\82b4753f0473af6c262760b1322471f7\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+45        android:required="true" />
+45-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\SUJAL\.gradle\caches\transforms-3\82b4753f0473af6c262760b1322471f7\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+46
+47    <permission
+47-->[androidx.core:core:1.9.0] C:\Users\SUJAL\.gradle\caches\transforms-3\3bf46d162121593784ca1848c45581bf\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+48        android:name="com.example.rive_animation.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+48-->[androidx.core:core:1.9.0] C:\Users\SUJAL\.gradle\caches\transforms-3\3bf46d162121593784ca1848c45581bf\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+49        android:protectionLevel="signature" />
+49-->[androidx.core:core:1.9.0] C:\Users\SUJAL\.gradle\caches\transforms-3\3bf46d162121593784ca1848c45581bf\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+50
+51    <uses-permission android:name="com.example.rive_animation.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+51-->[androidx.core:core:1.9.0] C:\Users\SUJAL\.gradle\caches\transforms-3\3bf46d162121593784ca1848c45581bf\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+51-->[androidx.core:core:1.9.0] C:\Users\SUJAL\.gradle\caches\transforms-3\3bf46d162121593784ca1848c45581bf\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+52
+53    <application
+54        android:name="io.flutter.app.FlutterMultiDexApplication"
+55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+55-->[androidx.core:core:1.9.0] C:\Users\SUJAL\.gradle\caches\transforms-3\3bf46d162121593784ca1848c45581bf\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+56        android:debuggable="true"
+57        android:icon="@mipmap/ic_launcher"
+58        android:label="rive_animation" >
+59        <activity
+60            android:name="com.example.rive_animation.MainActivity"
+61            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+62            android:exported="true"
+63            android:hardwareAccelerated="true"
+64            android:launchMode="singleTop"
+65            android:theme="@style/LaunchTheme"
+66            android:windowSoftInputMode="adjustResize" >
+67
+68            <!--
+69                 Specifies an Android theme to apply to this Activity as soon as
+70                 the Android process has started. This theme is visible to the user
+71                 while the Flutter UI initializes. After that, this theme continues
+72                 to determine the Window background behind the Flutter UI.
+73            -->
+74            <meta-data
+75                android:name="io.flutter.embedding.android.NormalTheme"
+76                android:resource="@style/NormalTheme" />
+77
+78            <intent-filter>
+79                <action android:name="android.intent.action.MAIN" />
+80
+81                <category android:name="android.intent.category.LAUNCHER" />
+82            </intent-filter>
+83        </activity>
+84        <!--
+85             Don't delete the meta-data below.
+86             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+87        -->
+88        <meta-data
+89            android:name="flutterEmbedding"
+90            android:value="2" />
+91        <meta-data
+92            android:name="com.google.android.geo.API_KEY"
+93            android:value="AIzaSyDSiCgGPGMrRY1HZ5cQuMAiYWK4NTJhPuI" />
+94
+95        <service
+95-->[:cloud_firestore] D:\geosense-main\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
+96            android:name="com.google.firebase.components.ComponentDiscoveryService"
+96-->[:cloud_firestore] D:\geosense-main\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:8:18-89
+97            android:directBootAware="true"
+97-->[com.google.firebase:firebase-common:20.4.2] C:\Users\SUJAL\.gradle\caches\transforms-3\6d767eda79183ee497d899bcf0139c80\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+98            android:exported="false" >
+98-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:68:13-37
+99            <meta-data
+99-->[:cloud_firestore] D:\geosense-main\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+100                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+100-->[:cloud_firestore] D:\geosense-main\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-134
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[:cloud_firestore] D:\geosense-main\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+102            <meta-data
+102-->[:firebase_auth] D:\geosense-main\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+103                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+103-->[:firebase_auth] D:\geosense-main\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[:firebase_auth] D:\geosense-main\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+105            <meta-data
+105-->[:firebase_core] D:\geosense-main\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+106                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+106-->[:firebase_core] D:\geosense-main\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[:firebase_core] D:\geosense-main\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:69:13-71:85
+109                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+109-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:70:17-109
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:71:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\SUJAL\.gradle\caches\transforms-3\121ee7103b9358261f35e3735f2b86c3\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:17:13-19:85
+112                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+112-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\SUJAL\.gradle\caches\transforms-3\121ee7103b9358261f35e3735f2b86c3\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:18:17-122
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\SUJAL\.gradle\caches\transforms-3\121ee7103b9358261f35e3735f2b86c3\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:19:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\SUJAL\.gradle\caches\transforms-3\121ee7103b9358261f35e3735f2b86c3\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:20:13-22:85
+115                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+115-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\SUJAL\.gradle\caches\transforms-3\121ee7103b9358261f35e3735f2b86c3\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:21:17-111
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\SUJAL\.gradle\caches\transforms-3\121ee7103b9358261f35e3735f2b86c3\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:22:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\SUJAL\.gradle\caches\transforms-3\8b1b79d1c3d9ca94de76125ea2620c53\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+118                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+118-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\SUJAL\.gradle\caches\transforms-3\8b1b79d1c3d9ca94de76125ea2620c53\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\SUJAL\.gradle\caches\transforms-3\8b1b79d1c3d9ca94de76125ea2620c53\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-common:20.4.2] C:\Users\SUJAL\.gradle\caches\transforms-3\6d767eda79183ee497d899bcf0139c80\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+121                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+121-->[com.google.firebase:firebase-common:20.4.2] C:\Users\SUJAL\.gradle\caches\transforms-3\6d767eda79183ee497d899bcf0139c80\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-common:20.4.2] C:\Users\SUJAL\.gradle\caches\transforms-3\6d767eda79183ee497d899bcf0139c80\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+123        </service>
+124        <service
+124-->[:geolocator_android] D:\geosense-main\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:56
+125            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+125-->[:geolocator_android] D:\geosense-main\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-77
+126            android:enabled="true"
+126-->[:geolocator_android] D:\geosense-main\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-35
+127            android:exported="false"
+127-->[:geolocator_android] D:\geosense-main\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-37
+128            android:foregroundServiceType="location" />
+128-->[:geolocator_android] D:\geosense-main\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-53
+129
+130        <activity
+130-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:29:9-46:20
+131            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+131-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:30:13-80
+132            android:excludeFromRecents="true"
+132-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:31:13-46
+133            android:exported="true"
+133-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:32:13-36
+134            android:launchMode="singleTask"
+134-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:33:13-44
+135            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+135-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:34:13-72
+136            <intent-filter>
+136-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:35:13-45:29
+137                <action android:name="android.intent.action.VIEW" />
+137-->[:contacts_service] D:\geosense-main\build\contacts_service\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-65
+137-->[:contacts_service] D:\geosense-main\build\contacts_service\intermediates\merged_manifest\debug\AndroidManifest.xml:15:21-62
+138
+139                <category android:name="android.intent.category.DEFAULT" />
+139-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
+139-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
+140                <category android:name="android.intent.category.BROWSABLE" />
+140-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+140-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+141
+142                <data
+142-->[:contacts_service] D:\geosense-main\build\contacts_service\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-20:44
+143                    android:host="firebase.auth"
+143-->[:contacts_service] D:\geosense-main\build\contacts_service\intermediates\merged_manifest\debug\AndroidManifest.xml:18:17-52
+144                    android:path="/"
+145                    android:scheme="genericidp" />
+145-->[:contacts_service] D:\geosense-main\build\contacts_service\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-41
+146            </intent-filter>
+147        </activity>
+148        <activity
+148-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:47:9-64:20
+149            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+149-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:48:13-79
+150            android:excludeFromRecents="true"
+150-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:49:13-46
+151            android:exported="true"
+151-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:50:13-36
+152            android:launchMode="singleTask"
+152-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:51:13-44
+153            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+153-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:52:13-72
+154            <intent-filter>
+154-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:53:13-63:29
+155                <action android:name="android.intent.action.VIEW" />
+155-->[:contacts_service] D:\geosense-main\build\contacts_service\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-65
+155-->[:contacts_service] D:\geosense-main\build\contacts_service\intermediates\merged_manifest\debug\AndroidManifest.xml:15:21-62
+156
+157                <category android:name="android.intent.category.DEFAULT" />
+157-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
+157-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
+158                <category android:name="android.intent.category.BROWSABLE" />
+158-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+158-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\SUJAL\.gradle\caches\transforms-3\474f66aa24a4541afd817bd60bafa10a\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+159
+160                <data
+160-->[:contacts_service] D:\geosense-main\build\contacts_service\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-20:44
+161                    android:host="firebase.auth"
+161-->[:contacts_service] D:\geosense-main\build\contacts_service\intermediates\merged_manifest\debug\AndroidManifest.xml:18:17-52
+162                    android:path="/"
+163                    android:scheme="recaptcha" />
+163-->[:contacts_service] D:\geosense-main\build\contacts_service\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-41
+164            </intent-filter>
+165        </activity>
+166
+167        <provider
+167-->[com.google.firebase:firebase-common:20.4.2] C:\Users\SUJAL\.gradle\caches\transforms-3\6d767eda79183ee497d899bcf0139c80\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+168            android:name="com.google.firebase.provider.FirebaseInitProvider"
+168-->[com.google.firebase:firebase-common:20.4.2] C:\Users\SUJAL\.gradle\caches\transforms-3\6d767eda79183ee497d899bcf0139c80\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+169            android:authorities="com.example.rive_animation.firebaseinitprovider"
+169-->[com.google.firebase:firebase-common:20.4.2] C:\Users\SUJAL\.gradle\caches\transforms-3\6d767eda79183ee497d899bcf0139c80\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+170            android:directBootAware="true"
+170-->[com.google.firebase:firebase-common:20.4.2] C:\Users\SUJAL\.gradle\caches\transforms-3\6d767eda79183ee497d899bcf0139c80\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+171            android:exported="false"
+171-->[com.google.firebase:firebase-common:20.4.2] C:\Users\SUJAL\.gradle\caches\transforms-3\6d767eda79183ee497d899bcf0139c80\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+172            android:initOrder="100" />
+172-->[com.google.firebase:firebase-common:20.4.2] C:\Users\SUJAL\.gradle\caches\transforms-3\6d767eda79183ee497d899bcf0139c80\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+173
+174        <uses-library
+174-->[androidx.window:window:1.0.0-beta04] C:\Users\SUJAL\.gradle\caches\transforms-3\de1ab81ebc29f06feddc362f4800fa06\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+175            android:name="androidx.window.extensions"
+175-->[androidx.window:window:1.0.0-beta04] C:\Users\SUJAL\.gradle\caches\transforms-3\de1ab81ebc29f06feddc362f4800fa06\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+176            android:required="false" />
+176-->[androidx.window:window:1.0.0-beta04] C:\Users\SUJAL\.gradle\caches\transforms-3\de1ab81ebc29f06feddc362f4800fa06\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+177        <uses-library
+177-->[androidx.window:window:1.0.0-beta04] C:\Users\SUJAL\.gradle\caches\transforms-3\de1ab81ebc29f06feddc362f4800fa06\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+178            android:name="androidx.window.sidecar"
+178-->[androidx.window:window:1.0.0-beta04] C:\Users\SUJAL\.gradle\caches\transforms-3\de1ab81ebc29f06feddc362f4800fa06\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+179            android:required="false" />
+179-->[androidx.window:window:1.0.0-beta04] C:\Users\SUJAL\.gradle\caches\transforms-3\de1ab81ebc29f06feddc362f4800fa06\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+180
+181        <activity
+181-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\SUJAL\.gradle\caches\transforms-3\82e3f5ba46d460016ff8fd388a867081\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:23:9-27:75
+182            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+182-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\SUJAL\.gradle\caches\transforms-3\82e3f5ba46d460016ff8fd388a867081\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:24:13-93
+183            android:excludeFromRecents="true"
+183-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\SUJAL\.gradle\caches\transforms-3\82e3f5ba46d460016ff8fd388a867081\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:25:13-46
+184            android:exported="false"
+184-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\SUJAL\.gradle\caches\transforms-3\82e3f5ba46d460016ff8fd388a867081\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:26:13-37
+185            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+185-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\SUJAL\.gradle\caches\transforms-3\82e3f5ba46d460016ff8fd388a867081\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:27:13-72
+186        <!--
+187            Service handling Google Sign-In user revocation. For apps that do not integrate with
+188            Google Sign-In, this service will never be started.
+189        -->
+190        <service
+190-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\SUJAL\.gradle\caches\transforms-3\82e3f5ba46d460016ff8fd388a867081\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:33:9-37:51
+191            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+191-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\SUJAL\.gradle\caches\transforms-3\82e3f5ba46d460016ff8fd388a867081\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:34:13-89
+192            android:exported="true"
+192-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\SUJAL\.gradle\caches\transforms-3\82e3f5ba46d460016ff8fd388a867081\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:35:13-36
+193            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+193-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\SUJAL\.gradle\caches\transforms-3\82e3f5ba46d460016ff8fd388a867081\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:36:13-107
+194            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+194-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\SUJAL\.gradle\caches\transforms-3\82e3f5ba46d460016ff8fd388a867081\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:37:13-48
+195        <uses-library
+195-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\SUJAL\.gradle\caches\transforms-3\82b4753f0473af6c262760b1322471f7\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+196            android:name="org.apache.http.legacy"
+196-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\SUJAL\.gradle\caches\transforms-3\82b4753f0473af6c262760b1322471f7\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+197            android:required="false" />
+197-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\SUJAL\.gradle\caches\transforms-3\82b4753f0473af6c262760b1322471f7\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+198
+199        <activity
+199-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\SUJAL\.gradle\caches\transforms-3\8d492b0987cc92596c366edd7a11f053\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+200            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+200-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\SUJAL\.gradle\caches\transforms-3\8d492b0987cc92596c366edd7a11f053\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+201            android:exported="false"
+201-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\SUJAL\.gradle\caches\transforms-3\8d492b0987cc92596c366edd7a11f053\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+202            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+202-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\SUJAL\.gradle\caches\transforms-3\8d492b0987cc92596c366edd7a11f053\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+203
+204        <meta-data
+204-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\SUJAL\.gradle\caches\transforms-3\4b54999e17e3a70d399133157e89368b\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+205            android:name="com.google.android.gms.version"
+205-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\SUJAL\.gradle\caches\transforms-3\4b54999e17e3a70d399133157e89368b\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+206            android:value="@integer/google_play_services_version" />
+206-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\SUJAL\.gradle\caches\transforms-3\4b54999e17e3a70d399133157e89368b\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+207    </application>
+208
+209</manifest>

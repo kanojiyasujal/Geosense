@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">409813632754</string>
+    <string name="google_api_key" translatable="false">AIzaSyDMojeny1d1gWlPqt3AkrjcRKLV8QWmfrQ</string>
+    <string name="google_app_id" translatable="false">1:409813632754:android:2e3817265dd7894161326b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDMojeny1d1gWlPqt3AkrjcRKLV8QWmfrQ</string>
+    <string name="google_storage_bucket" translatable="false">geosense-e1038.appspot.com</string>
+    <string name="project_id" translatable="false">geosense-e1038</string>
+</resources>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\geosense-main\\build\\google_maps_flutter_android\\intermediates\\merged_res\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\SUJAL\\.gradle\\caches\\transforms-3\\f92e6ba21f133cf8005bf5b1495f844f\\transformed\\jetified-play-services-base-18.0.1\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\geosense-main\\build\\google_maps_flutter_android\\intermediates\\merged_res\\debug\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\SUJAL\\.gradle\\caches\\transforms-3\\f92e6ba21f133cf8005bf5b1495f844f\\transformed\\jetified-play-services-base-18.0.1\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "D:\\geosense-main\\build\\google_maps_flutter_android\\intermediates\\merged_res\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\SUJAL\\.gradle\\caches\\transforms-3\\f92e6ba21f133cf8005bf5b1495f844f\\transformed\\jetified-play-services-base-18.0.1\\res\\color\\common_google_signin_btn_text_light.xml"
+    }
+]
