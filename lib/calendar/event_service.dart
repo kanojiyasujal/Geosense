@@ -19,7 +19,7 @@ import 'package:permission_handler/permission_handler.dart';
 import 'package:sound_mode/permission_handler.dart';
 import 'package:sound_mode/sound_mode.dart';
 import 'package:sound_mode/utils/ringer_mode_statuses.dart';
-import 'package:syncfusion_flutter_calendar/calendar.dart';
+
 
 import '../Notifications/notification_service.dart';
 import '../maps/radr_setting.dart';
@@ -27,7 +27,12 @@ import '../maps/radr_setting.dart';
 
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-
+import 'package:table_calendar/table_calendar.dart';
+import 'package:table_calendar/table_calendar.dart';
+import 'package:flutter/material.dart';
+import 'package:table_calendar/table_calendar.dart';
+import 'package:flutter/material.dart';
+import 'package:table_calendar/table_calendar.dart';
 
 class EventCalendar extends StatefulWidget {
   @override
@@ -35,25 +40,30 @@ class EventCalendar extends StatefulWidget {
 }
 
 class _EventCalendarState extends State<EventCalendar> {
-
- 
-
   @override
   void initState() {
     super.initState();
-  
   }
- @override
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text('Event Calendar'),
       ),
-       body: Column(
+      body: Column(
         children: [
-          SfCalendar(
-            view: CalendarView.month,
-            // Add your calendar customization here
+          TableCalendar(
+            firstDay: DateTime.utc(2010, 10, 16),
+            lastDay: DateTime.utc(2030, 3, 14),
+            focusedDay: DateTime.now(),
+            rowHeight: 40, // Adjust the row height as needed
+            calendarStyle: CalendarStyle(
+              outsideDaysVisible: false, // Hide days outside the current month
+            ),
+            headerStyle: HeaderStyle(
+              formatButtonVisible: false, // Hide the two weeks button
+            ),
           ),
           SizedBox(height: 16),
           Text(
@@ -61,7 +71,7 @@ class _EventCalendarState extends State<EventCalendar> {
             style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
           ),
           Expanded(
-            child: EventList(updateSoundMode: (bool ) {  },),
+            child: EventList(updateSoundMode: (bool) {}),
           ),
         ],
       ),
@@ -70,9 +80,8 @@ class _EventCalendarState extends State<EventCalendar> {
           Navigator.of(context).push(MaterialPageRoute(
             builder: (context) => AddEventPage(
               selectedLocation: LatLng(0, 0),
-              selectedRadarRange: 1000, 
-              updateSoundMode: (bool ) {  },
-              
+              selectedRadarRange: 1000,
+              updateSoundMode: (bool) {},
             ),
           ));
         },
@@ -81,6 +90,7 @@ class _EventCalendarState extends State<EventCalendar> {
     );
   }
 }
+
 
 
 class EventList extends StatelessWidget {
@@ -109,7 +119,7 @@ class EventList extends StatelessWidget {
               geoPoint.latitude,
               geoPoint.longitude,
             ),
-            radarRange: doc['radarRange'],
+            radarRange: (doc['radarRange'] as num).toDouble(), // Convert to double
           );
         }).toList();
 
